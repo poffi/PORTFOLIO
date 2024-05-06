@@ -8,17 +8,10 @@ html {
     scroll-snap-type: y mandatory;
 }
 
-.resume {
-    block-size: 20%;
-}
-
-.home {
-    block-size: 10%;
-}
-
 section {
     scroll-snap-align: start;
     scroll-snap-stop: always;
+color: rgb(212, 117, 0);
 
 }
 
@@ -34,7 +27,7 @@ section:nth-of-type(even) {
 
 section:nth-of-type(odd) {
     color: black;
-    background: white;
+    background: rgba(254, 172, 58, 0.864);
 }
 
 body {
@@ -95,4 +88,41 @@ h1 {
         }
     }
 }
-
+.pages{
+    display: flex;
+    justify-content: end;
+    block-size: 12%;
+  }
+  
+    .nav{
+      border: 2px solid black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 200px;
+      height: 90px;
+      font-size:15px;
+  
+    }
+    
+   a:hover{
+       color: #c5c6c7;
+      border-radius: 100%;
+      transition-duration: 0.5s;
+      padding-left: 18px;
+      text-decoration: none;
+      
+    }
+    a{
+     text-decoration: none;
+     color: #000000;
+      transition-duration: 0.5s;
+      
+    }
+    
+    li{
+     list-style-type: none;
+    }
+    
+    

@@ -25,3 +25,19 @@ img{
   height: 20em;
   width: 20em;
 }
+
+html,
+body,
+section {
+    block-size: 90%;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+
+}
