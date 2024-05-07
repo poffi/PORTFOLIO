@@ -6,40 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <link rel="stylesheet" href="aboutme.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
+
 </head>
+<html>
 
 <body>
     <section class="pages">
-        <div class="nav">
-               <a href="index.html"><b>Home</b></a>
-            <a href="aboutme.html"><b>About me</b></a>
-            <a href="Portfolio.html"><b>Portfolio</b></a>
-            <a href="contact.html"><b>Contact</b></a>
-            <a href="resume.html"><b>Resume</b></a>
-            <a href="hobbies.html"><b>hobbies</b></a>
-            <a href="future.html"><b>future-plan</b></a>
-         
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"><img src="menu_24dp_FILL0_wght400_GRAD0_opsz24.png"
+                    alt=""></button>
+            <div id="myDropdown" class="dropdown-content">
+                <div class="nav">
+                    <a href="index.html"><b>Home</b></a>
+                    <a href="aboutme.html"><b>About me</b></a>
+                    <a href="Portfolio.html"><b>Portfolio</b></a>
+                    <a href="contact.html"><b>Contact</b></a>
+                    <a href="resume.html"><b>Resume</b></a>
+                    <a href="hobbies.html"><b>hobbies</b></a>
+                    <a href="future.html"><b>future-plan</b></a>
+                </div>
+            </div>
         </div>
     </section>
-   
-    <section class="about-me">
-        <h1>
-            <b>
-                About-me
-            </b>
-        </h1>
+    <h1>
+        <b>
+            About-me
+        </b>
+    </h1>
 
-        <div class="Me">
-            <p class="para">
-                <b>
-                    I'm Michael, a current student at C.A.R.T (Center for Advanced Research and Technology) to explore
-                    possible career interests. I'm enrolled in website Application Development. But unfortunately I
+    <div class="wrapper">
+        <div class="hero">
+
+            <p class="hero__heading">
+                <b>I'm Michael,<br> a current student at C.A.R.T <br>(Center for Advanced Research and Technology)
+                    <br>to explore
+                    possible career interests. <br> I'm enrolled in website Application Development. <br> But
+                    unfortunately I
                     won't be
-                    attending CART next year, because of my home school schedule. I'm also a Clovis East highschooler
+                    attending CART next year, <br> because of my home school schedule. <br>I'm also a Clovis East
+                    highschooler
                     who
-                    will be graduating in 2025. After high school I'm planning to go to a U.C college.
+                    will be graduating in 2025. <br> After high school I'm planning to go to a U.C college.
+
+
+
+            </p>
+        </div>
+
+        <div class="hero hero--secondary" aria-hidden="true" data-hero>
+
+            <p class="hero__heading">
+                <b>I'm Michael,<br> I'm from nigeria<br>i just moved two years ago.
+                    <br> I like anything that has to do with art or ancient history. <br> i'm not really a fan of school
+                    but it's okay we all learn new things <br> my favorite artist is j cole.<br> to be honest after
+                    highschool i'm planning to live my life and explore different places.
+
 
                 </b>
             </p>
         </div>
-</section>
+
+    </div>
+
+
+
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

@@ -4,49 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="aboutme.css">
+ <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+ <link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <section class="pages">
-        <div class="nav">
-            <a href="index.html"><b>Home</b></a>
-            <a href="aboutme.html"><b>About me</b></a>
-            <a href="Portfolio.html"><b>Portfolio</b></a>
-            <a href="contact.html"><b>Contact</b></a>
-            <a href="resume.html"><b>Resume</b></a>
-            <a href="hobbies.html"><b>hobbies</b></a>
-            <a href="future.html"><b>future-plan</b></a>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"><img src="menu_24dp_FILL0_wght400_GRAD0_opsz24.png" alt=""></button>
+            <div id="myDropdown" class="dropdown-content">
+                <div class="nav">
+                    <a href="index.html"><b>Home</b></a>
+                    <a href="aboutme.html"><b>About me</b></a>
+                    <a href="Portfolio.html"><b>Portfolio</b></a>
+                    <a href="contact.html"><b>Contact</b></a>
+                    <a href="resume.html"><b>Resume</b></a>
+                    <a href="hobbies.html"><b>hobbies</b></a>
+                    <a href="future.html"><b>future-plan</b></a>
+                </div>
+            </div>
         </div>
-    </section>
+            </section>
+
+   <h1>
+        <b>
+            future-plan
+        </b>
+    </h1>
+
+    <div class="wrapper">
+        <div class="hero">
+
+            <p class="hero__heading">
+                <b>I plan to enter a four year college after my high school, I also plan on becoming a full time web
+                    designer,
+                    so I could be able to create my clothing brand websites and websites for others.
 
 
-    <section class="future-plan">
-        <h1 class="future">
-            <b>
-                Future Plans
-            </b>
-        </h1>
-        <p class="">
-            <b>
-                I plan to enter a four year college after my high school, I also plan on becoming a full time web
-                designer,
-                so I could be able to create my clothing brand websites and websites for others.
-            </b>
-        </p>
-    </section>
 
-    <section class="favorites">
-        <H1>
-            <b>
-                Favorites
-            </b>
-        </H1>
-        <p>
-            <b>
-                Things I do for fun are just visiting places and trying some different food all over the world.
-            </b>
-        </p>
-
-        <div class="fun-pics">
+            </p>
+            <div class="fun-pics">
             <img src="fun1.jpg" alt="">
             <img src="fun2.jpg" alt="">
             <img src="fun3.jpg" alt="">
@@ -58,6 +56,33 @@
             <img src="fun9.jpg" alt="">
             <img src="fun10.jpg" alt="">
         </div>
+        </div>
+
+        <div class="hero hero--secondary" aria-hidden="true" data-hero>
+
+            <p class="hero__heading">
+                <b>I plan to enter a four year college after my high school, I also plan on becoming a full time web
+                    designer,
+                    so I could be able to create my clothing brand websites and websites for others.
+
+                </b>
+            </p>
+            <div class="fun-pics">
+                <img src="fun1.jpg" alt="">
+                <img src="fun2.jpg" alt="">
+                <img src="fun3.jpg" alt="">
+                <img src="fun4.webp" alt="">
+                <img src="fun5.jpg" alt="">
+                <img src="fun6.jpg" alt="">
+                <img src="fun7.jpg" alt="">
+                <img src="fun8.jpg" alt="">
+                <img src="fun9.jpg" alt="">
+                <img src="fun10.jpg" alt="">
+        </div>
+
+    </div>       
     </section>
+
+<script src="index.js"></script>
 </body>
 </html>
