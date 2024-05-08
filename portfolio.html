@@ -5,108 +5,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
+    <link rel="stylesheet" href="aboutme.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <section class="pages">
-        <div class="nav">
-            <a href="index.html"><b>Home</b></a>
-            <a href="aboutme.html"><b>About me</b></a>
-            <a href="Portfolio.html"><b>Portfolio</b></a>
-            <a href="contact.html"><b>Contact</b></a>
-            <a href="resume.html"><b>Resume</b></a>
-            <a href="hobbies.html"><b>hobbies</b></a>
-            <a href="future.html"><b>future-plan</b></a>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"><img src="menu_24dp_FILL0_wght400_GRAD0_opsz24.png"
+                    alt=""></button>
+            <div id="myDropdown" class="dropdown-content">
+                <div class="nav">
+                    <a href="index.html"><b>Home</b></a>
+                    <a href="aboutme.html"><b>About me</b></a>
+                    <a href="Portfolio.html"><b>Portfolio</b></a>
+                    <a href="contact.html"><b>Contact</b></a>
+                    <a href="resume.html"><b>Resume</b></a>
+                    <a href="hobbies.html"><b>hobbies</b></a>
+                    <a href="future.html"><b>future-plan</b></a>
+                </div>
+            </div>
         </div>
     </section>
 
-
-    <section class="Project">
-        <h1>
-            <b>
-                PROJECTS:
-            </b>
-        </h1>
-        <div>
-            <p>
+    <h1>
+        <b>
+            PROJECTS
+        </b>
+    </h1>
+    <div class="wrapper">
+        <div class="hero">
+            <p class="hero__heading">
                 <b>
                     I began website development last September, I never knew anything to do with websites or how they
                     are made. But I began to get used to it as time passed by.
 
                 </b>
             </p>
+
         </div>
-        <div>
-            <h3>
+
+
+
+
+
+
+        <div class="hero hero--secondary" aria-hidden="true" data-hero>
+
+            <p class="hero__heading">
                 <b>
-                    Stuff Used for my coding:
+                    I began website development last September, I never knew anything to do with websites or how
+                    they
+                    are made. But I began to get used to it as time passed by.
+
                 </b>
-            </h3>
-            <ol>
-                <li>Softwares(w3 School, Visual Studio, Github) </li>
-                <li>Coding languages(HTML, CSS, JS) </li>
-                <li> Habits of Mind (Persistence and Communication)</li>
-            </ol>
+
+            </p>
+
         </div>
 
-        <div class="works">
-            <h3>
-                <b>
-                    These are some of the projects I have worked on.
-                </b>
-            </h3>
-                <img src="" alt="">
-                <a href="#">Dino</a>
-                <figcaption>
-                    <b>
-                        This website was our first project about a Jurassic theme shopping cart on outdoor tools, for
-                        example the REI company…
-                    </b>
-                </figcaption>
-
-
-
-                <img src="" alt="">
-                <a href="#">Budget Calc</a>
-                <figcaption>
-                    <b>
-                        This calculator was inspired by the eecu on how an individual could keep track of their savings
-                        and how the tasks are calculated.
-                    </b>
-                </figcaption>
-
-
-
-                <img src="" alt="">
-                <a href="#">Text Adventure Game</a>
-                <figcaption>
-                    <b>
-                        This text adventure game was the most recent website we worked on, On how javascript functions
-                        and how games are made.
-                    </b>
-                </figcaption>
-        </div>
-  </section>
+    </div>
 
 
 
 
-<section>
-    <img src="" alt="">
-    <a href="ART.HTML">ARTS</a>
-
-
-    <img src="" alt="">
-    <a href="DRAWING.HTML">DRAWING</a>
-
-    <img src="" alt="">
-    <a href="Food.html">FOODS</a>
-
-</section>
 
 
 
 
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <section class="stuff">
+        <h3 class="h3">
+            <b>
+                Stuff Used for my coding:
+            </b>
+        </h3>
+        <ol class="ol">
+            <li>Softwares(w3 School, Visual Studio, Github) </li>
+            <li>Coding languages(HTML, CSS, JS) </li>
+            <li> Habits of Mind (Persistence and Communication)</li>
+        </ol>
+    </section>
+
+
+
+
+
+    <h3>
+        <b>
+            These are some of the projects I have worked on.
+        </b>
+    </h3>
+
+    <div class="image-gallery">
+        
+            <img class="img" src="food1a.jpg" alt=""><a href="#" >Dino</a>
+            
+  
+
+        
+            <img class="img" src="food7.jpg" alt=""> <a href="#">Budget Calc</a>
+           
+  
+
+        
+            <img class="img" src="food17.jpg" alt=""> <a href="#">Text Adventure Game</a>
+           
+  
+    </div>
+
+
+
+
+
+    <script src="index.js"></script>
 
 
 </body>

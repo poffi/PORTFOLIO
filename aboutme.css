@@ -17,6 +17,31 @@ img {
     height: 30px;
     width: 30px;
 }
+.img{
+    height: auto;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -105,6 +130,8 @@ svg {
 
 .wrapper {
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero {
@@ -150,7 +177,38 @@ justify-content: center;
 
 }
 
+.works{
+    display: flex;
+    flex-direction: column;
+}
 
+
+
+
+
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    max-width: 50rem;
+    margin-inline: auto;
+    bottom: 8px;
+    left: 16px;
+ }
+  
+  .image-gallery > img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  
+    transition: scale 350ms ease, opacity 350ms linear;
+  }
+  
+  .image-gallery:has(img:hover) img:not(:hover) {
+    scale: 0.8;
+    opacity: 0.7;
+  }
+  
 
 
 
