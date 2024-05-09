@@ -40,6 +40,9 @@ body {
   background-color: #f5f5dc;
 }
 
+*{
+  font-family: "Ojuju", sans-serif;
+}
 
 
 svg {
@@ -52,7 +55,7 @@ svg {
 }
 
 .hero {
-  min-height: 100vh;
+  min-height: 95vh;
   display: flex;
   align-items: center;
 }
