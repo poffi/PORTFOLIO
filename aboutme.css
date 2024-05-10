@@ -2,7 +2,7 @@
 
 section:nth-of-type(odd) {
     color: black;
-    background: rgba(254, 172, 58, 0.864);
+    background: #432d27;
 }
 
 body {
@@ -27,10 +27,9 @@ img {
 }
 
 .dropbtn {
-    background-color: #f8b65f9c;
+    background-color: rgb(234, 209, 171);
     color: white;
-    padding: 16px;
-    border: 2px solid black;
+    padding: 20px;
     border-radius: 50px;
     cursor: pointer;
 
@@ -39,7 +38,7 @@ img {
 
 .dropbtn:hover,
 .dropbtn:focus {
-    background-color: #c2c4c5;
+    background-color: #d7b7a3;
 }
 
 
@@ -74,7 +73,7 @@ img {
 }
 
 .nav {
-    border-top: 2px solid black;
+    border-top: 4px solid #432d27;
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -122,13 +121,13 @@ svg {
 }
 
 .hero--secondary {
-    --mask: radial-gradient(circle at var(--x, 100%) var(--y, 20%), black 17%, transparent 0);
+    --mask: radial-gradient(circle at var(--x, 100%) var(--y, 20%), black 15%, transparent 0);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, #704214, #c3b091, #efdecd);
+    background: linear-gradient(45deg, #432d27, #c3b091, #efdecd);
     color: rgb(9, 14, 23);
     -webkit-mask-image: var(--mask);
     mask-image: var(--mask);
@@ -340,7 +339,9 @@ h1 {
     place-items: center;
   }
 
-
+.nave{
+  background-color: rgba(234, 209, 171, 0.867);
+}
 
 
 
@@ -398,25 +399,30 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
   background-color: #f3dab675;
+  font-weight: bold;
 }
 
 input[type=submit] {
-  background-color: #fedbb0;
-  color: rgba(0, 0, 0, 0.222);
+  background-color: #432d27cd ;
+  color: rgb(255, 255, 255);
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-weight: bold;
+  font-size: large;
 }
 
 input[type=submit]:hover {
-  background-color: #e9f1ea;
+  background-color: #d7b7a3b8;
   color: #000000;
+  font-weight: bold;
+  font-size: large;
 }
 
 .container {
   border-radius: 5px;
-  background-color: #f8b65a;
+  background-color: #eae7e7;
   padding: 20px;
   display:grid;
   grid-template-columns: 1fr 60px;
@@ -428,3 +434,16 @@ label{
     color:#000000;
    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

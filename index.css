@@ -61,7 +61,7 @@ svg {
 }
 
 .hero--secondary {
-  --mask: radial-gradient(circle at var(--x, 100%) var(--y, 20%), black 20%, transparent 0);
+  --mask: radial-gradient(circle at var(--x, 100%) var(--y, 20%), black 18%, transparent 0);
   position: absolute;
   top: 0;
   left: 0;
@@ -95,7 +95,7 @@ img {
 
 
 .dropbtn {
-  background-color: #f8b65f9c;
+  background-color: rgb(234, 209, 171);
   color: white;
   padding: 16px;
   border: 2px solid black;
@@ -147,4 +147,16 @@ img {
 
 .show {
   display: block;
+}
+
+
+body {
+  background-image: url("pic22.png");
+  background-size: 2000px;
+  animation: moveIt 2s linear infinite alternate-reverse;
+  background-repeat: no-repeat;
+}
+@keyframes moveIt {
+  from {background-position: bottom left;}
+  to {background-position: top right;}
 }
