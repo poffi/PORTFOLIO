@@ -13,9 +13,6 @@ window.addEventListener('mousemove', (e) => {
   })
 }) 
 
-
-
-
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -33,10 +30,15 @@ window.onclick = function(event) {
   }
 }
 
-
 var angle = 0;
 function galleryspin(sign) {
   spinner = document.querySelector("#spinner");
   if (!sign) { angle = angle + 45; } else { angle = angle - 45; }
   spinner.setAttribute("style", "-webkit-transform: rotateY(" + angle + "deg); -moz-transform: rotateY(" + angle + "deg); transform: rotateY(" + angle + "deg);");
 }
+
+const menuToggle = document.getElementById('menu-toggle');
+
+menuToggle.addEventListener('click',function(){
+  menuToggle.classList.toggle('open');
+})
