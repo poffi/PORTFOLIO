@@ -214,3 +214,22 @@ a {
 .show {
     display: block;
 }
+@media only screen and (max-width:768px){
+    .all {
+        margin: 20px auto;
+        background-color: rgb(234, 209, 171);
+        display: grid;
+        grid-template-columns: 30% 79%;
+        grid-row: auto auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 30px;
+      }
+      .pics {
+        border-bottom: 4px solid rgb(0, 0, 0);
+        display: flex;
+        padding-right: 1px;
+        justify-content: space-between;
+        gap: 30px;
+        /* width: 10px; */
+      }
+}

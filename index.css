@@ -241,3 +241,16 @@ body {
     }
   }
 }
+@media only screen and (max-width:768px) {
+  body {
+    background-image: url("pic22.png");
+    background-size: 2000px;
+    animation: moveIt 8s linear infinite alternate-reverse;
+    background-repeat: no-repeat;
+  }
+  @keyframes moveIt {
+    from {background-position: bottom left;}
+    to {background-position: top right;}
+  }
+  
+}
